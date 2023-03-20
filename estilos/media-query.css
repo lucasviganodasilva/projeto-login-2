@@ -14,12 +14,12 @@ Grandes telas: acima de 1200px
     }
 
     section{
-        width: 80vw;
+        width: 750px;
         height: 500px;
     }
 
     #msg{
-        float: left;
+        float: right;
         width: 55%;
         height: 100%;
         background-position: bottom right;
@@ -27,28 +27,16 @@ Grandes telas: acima de 1200px
 
     #msg h1{
         font-size: 2.2em;
-        position: absolute;
-        left: 23%;
-        top: 30%;
-
-        transform: translate(-50%, -50%);
+        text-align: center;
     }
 
     #msg p{
-        display: block;
-        text-align: left;
+        text-align: center;
         font-size: 1em;
-        position: absolute;
-        left: 20%;
-        top: 40%;
-
-        transform: translate(-40%, -50%);
+        margin: 8px;
     }
 
     #formulario{
-        left: 55%;
-        top: 50%;
-        transform: translate(-5%, -55%);
         width: 45%;
     }
 }
@@ -60,12 +48,12 @@ Grandes telas: acima de 1200px
     }
 
     section{
-        width: 50vw;
+        width: 950px;
         height: 500px;
     }
 
     #msg{
-        float: left;
+        float: right;
         width: 60%;
         height: 100%;
         background-position: bottom right;
@@ -73,27 +61,15 @@ Grandes telas: acima de 1200px
 
     #msg h1{
         font-size: 2.5em;
-        position: absolute;
-        left: 37%;
-        top: 40%;
-
-        transform: translate(-100%, -50%);
     }
 
     #msg p{
         text-align: left;
         font-size: 1.5em;
-        position: absolute;
-        left: 50%;
-        top: 50%;
-
-        transform: translate(-98%, -50%);
     }
 
     #formulario{
-        left: 58%;
-        top: 50%;
-        transform: translate(-0%, -60%);
+        float: left;
         width: 40%;
     }
 
