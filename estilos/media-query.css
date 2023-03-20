@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+/*
+Pequenas telas: até 600px
+Celular: 600px a 768px
+Tablet: 768px a 992px
+Desktop: 992px a 1200px
+Grandes telas: acima de 1200px
+*/
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body{
+        background-image: linear-gradient(to bottom, #270364, #7d48da, #ac98cf);
+    }
+
+    section{
+        width: 80vw;
+        height: 500px;
+    }
+
+    #msg{
+        float: left;
+        width: 55%;
+        height: 100%;
+        background-position: bottom right;
+    }
+
+    #msg h1{
+        font-size: 2.2em;
+        position: absolute;
+        left: 23%;
+        top: 30%;
+
+        transform: translate(-50%, -50%);
+    }
+
+    #msg p{
+        display: block;
+        text-align: left;
+        font-size: 1em;
+        position: absolute;
+        left: 20%;
+        top: 40%;
+
+        transform: translate(-40%, -50%);
+    }
+
+    #formulario{
+        left: 55%;
+        top: 50%;
+        transform: translate(-5%, -55%);
+        width: 45%;
+    }
+}
+
+
+@media screen and (min-width: 992px){
+    body{
+        background-image: linear-gradient(to bottom, #270364, #7d48da,#ac98cf);
+    }
+
+    section{
+        width: 50vw;
+        height: 500px;
+    }
+
+    #msg{
+        float: left;
+        width: 60%;
+        height: 100%;
+        background-position: bottom right;
+    }
+
+    #msg h1{
+        font-size: 2.5em;
+        position: absolute;
+        left: 37%;
+        top: 40%;
+
+        transform: translate(-100%, -50%);
+    }
+
+    #msg p{
+        text-align: left;
+        font-size: 1.5em;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+
+        transform: translate(-98%, -50%);
+    }
+
+    #formulario{
+        left: 58%;
+        top: 50%;
+        transform: translate(-0%, -60%);
+        width: 40%;
+    }
+
+    #box{
+        margin: 5px 63px 10px 63px;
+    }
+}

@@ -1,0 +1,159 @@
+@charset "UTF-8";
+
+/* Versão Mobile First */
+
+/* Cores
+
+#ac98cf
+#7b36f170
+#7d48da
+#270364
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body, html{
+    background-color: #ac98cf;
+    height: 100vh;
+    width: 100vw;
+}
+
+main{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+section{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    overflow: hidden;
+
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px #7b36f170;
+
+    width: 350px;
+    height: 500px;
+
+    background-color: rgba(255, 255, 255, 0.904);
+
+    transform: translate(-50%, -50%);
+}
+
+#msg{
+    display: block;
+    background: #7d48da url('../imagens/img.png') no-repeat;
+    background-position: center top;
+    height: 150px;
+    color: white;
+
+    padding: 10px;
+}
+
+#msg > h1{
+    text-align: center;
+    margin: 12px;
+    font-size: 1.5em;
+}
+
+#msg > p{
+    text-align: center;
+    margin: 20px;
+    font-size: 1em;
+}
+
+#formulario{
+    position: absolute;
+    display: block;
+    margin: 10px;
+}
+
+#formulario > form > h1{
+    color: rgba(58, 57, 57, 0.719);
+    font-weight: bolder;
+    display: block;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.7em;
+}
+
+.login{
+    text-align: center;
+    margin: 0px 30px 0px 30px;
+}
+
+.login > label{
+    display: none;
+}
+
+.login > input{
+    width: 260px;
+    height: 40px;
+    border-radius: 20px;
+    margin: 5px;
+    padding-left: 10px;
+    border: 2px solid rgba(128, 128, 128, 0.445)
+}
+
+#box{
+    color: rgb(58, 57, 57);
+    display: block;
+    text-align: justify;
+    font-size: 0.8em;
+    margin: 5px 40px 10px 40px;
+}
+
+#box > a{
+    text-decoration: none;
+    float: right;
+    color: rgb(58, 57, 57);
+}
+
+#signin{
+    text-align: center;
+}
+
+#signin > input[type=submit]{
+    width: 240px;
+    height: 40px;
+
+    margin: 10px;
+    padding: 10px;
+
+    border-radius: 20px;
+    border: 1px solid white;
+
+    background-image: linear-gradient(to right, #5e19d6, #9f7bdd, #5e19d6);
+    color: white;
+    font-size: 1em;
+
+    cursor: pointer;
+}
+
+#signin > input[type=submit]:hover{
+    color: whitesmoke;
+    background-image: linear-gradient(to right, #270364, #5e19d6, #270364)
+
+}
+
+#account{
+    text-align: center;
+    font-size: 0.8em;
+    margin: 8px;
+    color: rgb(58, 57, 57);
+}
+
+#account a{
+    text-decoration: none;
+    color: #5e19d6;
+    padding-left: 2px;
+}
