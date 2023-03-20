@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
+</head>
+<body>
+    <main>
+        <section>
+            <div id="msg">
+                <h1>Welcome Back</h1>
+                <p>You can sign in to acess with your existing account.</p>
+            </div>
+            <div id="formulário">
+                <form action="cadastro.php" method="post" autocomplete="on">
+                    <h1>Sign In</h1>
+                    <div class="">
+                        <label for="iemail">E-mail</label>
+                        <input type="email" name="email" id="iemail">
+                    </div>
+                    <div class="">
+                        <label for="isenha">Senha</label>
+                        <input type="password" name="senha" id="isenha">
+                    </div>
+                    <input type="checkbox" name="remember" id="iremember">
+                    <label for="iremember">Remember me</label> <a href="#">Forgot password?</a>
+                    <div id="signin">
+                        <input type="submit" value="Sign In">
+                    </div>
+                    <div>
+                        <p>New here? <a href="#">Create and Account</a></p>
+                    </div>
+
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
